@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Zagadki</title>
+    <style>
+        body {
+            background-color: #f031b0;
+        }
+
+        h1 {
+            color: white;
+            position: relative;
+            text-align: center;
+            font-family: Arial;
+            font-size: 33px;
+        }
+
+        h2 {
+            color: white;
+            position: relative;
+            left: 50px;
+            font-family: Arial;
+            font-size: 25px;
+        }
+
+        p {
+            color: white;
+            position: relative;
+            left: 50px;
+            font-family: Arial;
+            font-size: 15px;
+        }
+
+        .button {
+            position: relative;
+            left: 50px;
+        }
+
+        .div {
+            color: white;
+            position: relative;
+            left: 50px;
+            font-family: Arial;
+            font-size: 15px;
+            top: 15px;
+            bottom: 15px;
+        }
+    </style>
+    <script>
+        function f1() {
+            document.getElementById("d1").innerHTML = "Jeśli mama Kasi ma pięć córek, a ich imiona wymieniono wyżej, to znaczy, że piątą córką jest właśnie Kasia.";
+        }
+
+        function f2() {
+            document.getElementById("d1").innerHTML = "Odpowiedź ukryta";
+        }
+
+        function f3() {
+            document.getElementById("d2").innerHTML = "Prezydent";
+        }
+
+        function f4() {
+            document.getElementById("d2").innerHTML = "Odpowiedź ukryta";
+        }
+
+        function f5() {
+            document.getElementById("d3").innerHTML = "Trumną";
+        }
+
+        function f6() {
+            document.getElementById("d3").innerHTML = "Odpowiedź ukryta";
+        }
+
+        function f7() {
+            document.getElementById("d4").innerHTML = "Żadnego. To Noe płynął arką";
+        }
+
+        function f8() {
+            document.getElementById("d4").innerHTML = "Odpowiedź ukryta";
+        }
+
+        function f9() {
+            document.getElementById("d5").innerHTML = "Do żadnego. Przecież nie ma takiej granicy!";
+        }
+
+        function f10() {
+            document.getElementById("d5").innerHTML = "Odpowiedź ukryta";
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Zagadki Logiczne</h1>
+    <h2>Zagadka pierwsza</h2>
+    <p>Mama Kasi ma pięć córek. Jeśli imiona jego córek to odpowiednio Klara, Karolina, Klaudia, Kinga to jakie będzie
+        imię piątej córki?</p>
+    <input type="button" value="Pokaż odpowiedź" class="button" onclick="f1()">
+    <input type="button" value="Ukryj odpowiedź" class="button" onclick="f2()">
+    <div class=div id="d1">Odpowiedz ukryta</div>
+    <br>
+
+    <h2>Zagadka druga</h2>
+    <p>Pan Blue mieszka w niebieskim domu, Pani Pink mieszka w różowym domu, a Pan Brown w domu brązowym. Kto mieszka w
+        Białym Domu?</p>
+    <input type="button" value="Pokaż odpowiedź" class="button" onclick="f3()">
+    <input type="button" value="Ukryj odpowiedź" class="button" onclick="f4()">
+    <div class=div id="d2">Odpowiedz ukryta</div>
+    <br>
+
+    <h2>Zagadka trzecia</h2>
+    <p>Ten, kto mnie tworzy, nie potrzebuje mnie, kiedy to robi. Ten, który mnie kupuje nie potrzebuje mnie dla siebie.
+        Ten, kto mnie użyje, nie będzie o tym wiedział. Czym jestem?</p>
+    <input type="button" value="Pokaż odpowiedź" class="button" onclick="f5()">
+    <input type="button" value="Ukryj odpowiedź" class="button" onclick="f6()">
+    <div class=div id="d3">Odpowiedz ukryta</div>
+    <br>
+
+    <h2>Zagadka czwarta</h2>
+    <p>Ile zwierząt Mojżesz zabrał do arki?</p>
+    <input type="button" value="Pokaż odpowiedź" class="button" onclick="f7()">
+    <input type="button" value="Ukryj odpowiedź" class="button" onclick="f8()">
+    <div class=div id="d4">Odpowiedz ukryta</div>
+    <br>
+
+    <h2>Zagadka piąta</h2>
+    <p>Krowa stała na granicy czesko-francuskiej. Do którego państwa należy?</p>
+    <input type="button" value="Pokaż odpowiedź" class="button" onclick="f9()">
+    <input type="button" value="Ukryj odpowiedź" class="button" onclick="f10()">
+    <div class=div id="d5">Odpowiedz ukryta</div>
+</body>
+
+</html>
